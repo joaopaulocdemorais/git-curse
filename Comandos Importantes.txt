@@ -20,7 +20,9 @@ git add nomeDoAquivo = adiciona um arquivo ao git
 
 git add . = adiciona todos arquivos do repositorio ao git.
 
-git diff = mostra as mudanças que forma feitas nos arquivos antes de ser feito um commit
+git diff = mostra as mudanças que forma feitas nos arquivos antes de ser feito um commit 
+
+git checkout NomeDoArquivo = retorna o estado de um arquivo que está em edição para o estado do ultimo commit.
 
 git commit -m "Mensagem" = cria versão do projeto
 
@@ -29,3 +31,5 @@ git log = lista as versões (commits) do repositorio
 git log --graph = mostra as linhas do tempo (branches) dentro do git
 
 git show indefição da vesrão = mostra o que foi feito no commit
+
+git reset nomeDoArquivo = tira o arquivo do modo consolidado(pronto para relizar o commut), e coloca em modo de eidição novamente. 
