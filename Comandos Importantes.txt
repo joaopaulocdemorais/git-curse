@@ -1,0 +1,29 @@
+Configuração Inicial.
+
+git config --global user.name "Nome User" = Define o nome de úsuario.
+
+git config --global use.email "joaopaulomorais2@gmail.com" = Define o e-mail do usuario
+
+git config --list = Mosta como estão as configurções de usuarios do git
+
+mkdir nomepasta = cria uma pasta no terminal
+
+cd nomepasta = entra dentro de uma pasta no terminal
+
+git init = inicializa o git na pasta que deseja ter o controle de versão.
+
+dir = cria lista os arquivos de uma pasta.
+
+git status = mostra o atual estado do repositorio.
+
+git add nomeDoAquivo = adiciona um arquivo ao git
+
+git add . = adiciona todos arquivos do repositorio ao git.
+
+git commit -m "Mensagem" = cria versão do projeto
+
+git log = lista as versões (commits) do repositorio
+
+git log --graph = mostra as linhas do tempo (branches) dentro do git
+
+git show indefição da vesrão = mostra o que foi feito no commit
