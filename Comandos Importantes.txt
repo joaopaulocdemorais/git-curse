@@ -20,6 +20,8 @@ git add nomeDoAquivo = adiciona um arquivo ao git
 
 git add . = adiciona todos arquivos do repositorio ao git.
 
+git diff = mostra as mudanças que forma feitas nos arquivos antes de ser feito um commit
+
 git commit -m "Mensagem" = cria versão do projeto
 
 git log = lista as versões (commits) do repositorio
