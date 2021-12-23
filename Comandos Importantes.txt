@@ -34,6 +34,12 @@ git reset nomeDoArquivo = tira o arquivo do modo consolidado(pronto para relizar
 
 git checkout NomeDoArquivo = retorna o estado de um arquivo que está em edição para o estado do ultimo commit.
 
+git reset --hard CodigoDoCommitQueDesesaVoltar = volta para o commit que vc apontou atráves do codigo e mata todos commit acima dele.
+
+git reset --mixed CodigoDoCommitQueDesesaVoltar = volta para o commit que vc apontou atráves do codigo porem deixa os arquivos e modo de edição, antes de ser adicionado para o commit.
+
+git reset --soft CodigoDoCommitQueDesesaVoltar = volta para o commit que vc apontou atráves do codigo porem deixa os arquivos arquivo anteriores, e o mesmos ficam prontos para ser realizado um novo commot.
+
 
 
 
