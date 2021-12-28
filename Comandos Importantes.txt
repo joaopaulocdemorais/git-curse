@@ -43,3 +43,5 @@ git reset --soft CodigoDoCommitQueDesesaVoltar = volta para o commit que vc apon
 
 
 
+
+
