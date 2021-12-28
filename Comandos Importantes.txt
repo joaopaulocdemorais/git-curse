@@ -20,6 +20,9 @@ git add nomeDoAquivo = adiciona um arquivo ao git
 
 git add . = adiciona todos arquivos do repositorio ao git.
 
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh = esses link tem a documentação de como gera uma chave ssh para altenticar a maquina local ao servidor, assim evitando erro de permissão ao subir arquivos para o GitHub, e preciso criar uma chave para cada maquina.
+
 git diff = mostra as mudanças que forma feitas nos arquivos antes de ser feito um commit 
 
 git commit -m "Mensagem" = cria versão do projeto
