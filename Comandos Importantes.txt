@@ -20,9 +20,6 @@ git add nomeDoAquivo = adiciona um arquivo ao git
 
 git add . = adiciona todos arquivos do repositorio ao git.
 
-
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh = esses link tem a documentação de como gera uma chave ssh para altenticar a maquina local ao servidor, assim evitando erro de permissão ao subir arquivos para o GitHub, e preciso criar uma chave para cada maquina.
-
 git diff = mostra as mudanças que forma feitas nos arquivos antes de ser feito um commit 
 
 git commit -m "Mensagem" = cria versão do projeto
@@ -43,8 +40,11 @@ git reset --mixed CodigoDoCommitQueDesesaVoltar = volta para o commit que vc apo
 
 git reset --soft CodigoDoCommitQueDesesaVoltar = volta para o commit que vc apontou atráves do codigo porem deixa os arquivos arquivo anteriores, e o mesmos ficam prontos para ser realizado um novo commot.
 
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh = esses link tem a documentação de como gera uma chave ssh para altenticar a maquina local ao servidor, assim evitando erro de permissão ao subir arquivos para o GitHub, e preciso criar uma chave para cada maquina.
 
+git remote add origin git@github.com:joaopaulocm23/git-curse.git = adiciona repositorio remoto ao local.
 
+git remote = mostra o repositorio remoto que está adicionado
 
 
 
