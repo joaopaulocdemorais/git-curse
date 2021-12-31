@@ -46,5 +46,10 @@ git remote add origin git@github.com:joaopaulocm23/git-curse.git = adiciona repo
 
 git remote = mostra o repositorio remoto que está adicionado
 
+git push -u origin master = comando para enviar arquivos para o GitHub na primeira vez, a palavra "origin" e o repositorio de destino (Remoto), e a palavra "master" e o repositorio de origem dos arquivos (local), o "-u" graba a origem e destino para na proxima vez não ser necessario digitar "origin master"
+
+git push origin master = envia os arquivos para o repositorio remoto, onde e passado o destino (origin), e origem (master), OBS: "origin e master" são apenas nomes padrão, podem mudar de acordo com o projeto.
+
+git push = caso o commit seja igual pode-se usar apenas "git push sendo" o destino e horigem iguais.
 
 
