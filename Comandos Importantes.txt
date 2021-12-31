@@ -1,5 +1,7 @@
 Configuração Inicial.
 
+Como escrever um bom Readme = https://blog.rocketseat.com.br/o-que-e-readme-e-porque-e-tao-importante/
+
 git config --global user.name "Nome User" = Define o nome de úsuario.
 
 git config --global use.email "joaopaulomorais2@gmail.com" = Define o e-mail do usuario
