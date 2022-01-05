@@ -55,3 +55,11 @@ git push origin master = envia os arquivos para o repositorio remoto, onde e pas
 git push = caso o commit seja igual pode-se usar apenas "git push sendo" o destino e horigem iguais.
 
 git clone git@github.com:joaopaulocm23/git-curse.git clone = comando para clonar um repositorio remoto, "git@github.com:joaopaulocm23/git-curse.git" onde deve ser passado o link SSL como o que está entre aspas, te tambem a nome da pasta do novo repositorio que no caso a cima teve o nome "clone".
+
+git checkout -b nomeDoBranch = cria um novo Branch
+.
+git branch = mostra os branch do repositorio
+
+git checkout nomeDoBranch = vai para o branch passado.
+
+git branch -D nomeDoBranch = apaga o branch que foi passado. OBS = o "-D" do comando esta em letra maiuscula.
