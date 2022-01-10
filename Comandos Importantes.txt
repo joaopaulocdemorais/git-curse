@@ -63,3 +63,4 @@ git branch = mostra os branch do repositorio
 git checkout nomeDoBranch = vai para o branch passado.
 
 git branch -D nomeDoBranch = apaga o branch que foi passado. OBS = o "-D" do comando esta em letra maiuscula.
+
