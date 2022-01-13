@@ -64,3 +64,13 @@ git checkout nomeDoBranch = vai para o branch passado.
 
 git branch -D nomeDoBranch = apaga o branch que foi passado. OBS = o "-D" do comando esta em letra maiuscula.
 
+git marge nomeDoBranch = faz o marge do branch (vc deve estar no branch onde deseja colocar os novos dados)
+
+git rebase nomeDoBranch = faz o rebase do branch (vc deve estar no branch onde deseja colocar os novos dados).
+
+
+git tag -a NumeroVersçao -m "Mensagem" = Usado para definir uma vesão do sistema.
+
+git tag = ver todas as tags geradas.
+
+git push destino origem --tags = envia a versão (tag) para o GitHub.
